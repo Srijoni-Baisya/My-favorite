@@ -91,6 +91,14 @@ a{
 #mail{
     font-size: 20px;
 }
+#work{
+   background:linear-gradient(to bottom right, rgba(46,249,229,80), rgba(252,249,29.74));
+    padding-bottom: 40px;  
+}
+#inspiration{
+  background:linear-gradient(to bottom right, rgba(46,249,229,80), rgba(252,249,29.74));
+    padding-bottom: 40px;    
+}
 #storypage{
     background: linear-gradient(to bottom right,rgba(182,135,247,89),rgba(244,134,138,84));
     padding-bottom: 25px;
@@ -125,3 +133,43 @@ a{
 html{
     scroll-behavior: smooth;
 }
+.authorpage{
+    background:linear-gradient(rgba(247,102,104,89),rgba(247,255,54,73)) ;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+.authorname{
+    font-size: 50px;
+    font-family:'Roboto Slab', serif;
+    color: mediumblue;
+    padding-bottom: 25px;
+}
+.authorbio{
+    font-size: 20px;
+    font-family: Times New Roman;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.authorimg{
+    height:300px;
+    width:300px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 10px;
+    border-color:darkmagenta;
+    margin:40px;
+    transition: transform .2s;
+}
+.authorimg:hover{
+    transform: scale(0.9);
+}
+.bookimg{
+    height: 230px;
+    width: 150px;
+    padding: 3px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+    margin:10px;
+   }
