@@ -39,23 +39,35 @@ h2{
   font-size:20px;
 }
 .menu{
-    list-style: none;
+    list-style-type: none;
     font-family: Times New Roman;
-    position: absolute;
+    position: fixed;
     top:10px;
     right:30px;
     z-index: 10;
     cursor: pointer;
-    font-size: 18px;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 .links{
-    float:left;
+    float: left;
     padding-left:9px;
     padding-right: 9px;
+    font-size: 23px;
+    }
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
 }
 .links:hover{
     background-color:cornflowerblue;
+    text-decoration: underline;
+    font-size: 25px;
 }
 .line{
     height:6px;
@@ -124,7 +136,7 @@ a{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 23px;
     border-style: solid;
     border-color: darkblue;
     border-width: 3px;
@@ -173,3 +185,10 @@ html{
     border-width: 3px;
     margin:10px;
    }
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    color: red !important;
+    text-shadow: none !important;
+}
